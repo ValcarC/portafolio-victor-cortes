@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Photo from './assets/Victor-Cortes.png';
-import AppComponent from './AppComponent.jsx';
 
 const AutoTypingText = ({ text, speed }) => {
   const [displayedText, setDisplayedText] = useState('');
@@ -68,11 +66,13 @@ function App() {
     <>
         {/* <div className={`font-raleway ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}> */}
         <div className={`font-raleway'}`}>
+          
         {/* Section */}
         <div className='h-screen'>
           <div className="h-1/2 lg:h-screen bg-gradient-to-t from-orange-200 to-red-500 dark:from-slate-900 dark:to-slate-900 relative overflow-hidden">
+
             {/* navbar */}
-            <nav className='w-full fixed top-0 bg-white z-10 dark:bg-slate-900'>
+            <nav className='w-full fixed top-0 bg-white z-10 dark:bg-orange-700'>
               <div className='container mx-auto py-5 flex items-center justify-between'>
                 <div className='flex items-center gap-3'>
                   <img className='w-8' src="../public/logoVictor.png" alt="Logo Victor" />
@@ -129,6 +129,7 @@ function App() {
              </div>
             </div>
           </nav>
+
             {/* Intro Content */}
             {/* image */}
             <img src="../public/portrait.png" alt="" className='absolute bottom-0 right-0 mr-9 lg:left-0 mx-auto h-5/6 p-9 object-cover rounded-full'/>
@@ -137,6 +138,7 @@ function App() {
               <span className='text-indigo-600'>Developer</span> 
               <AutoTypingText text="Designer UX/UI" speed={150} />
             </div>
+
             {/* texts */}
             <div className='hidden lg:flex flex-col gap-2 absolute top-15 shadow-xl bottom-0 m-auto left-9 bg-white dark:bg-slate-300 p-6 h-fit w-1/3 rounded-sm'>
               <h1 className='text-3xl font-bold text-indigo-600'>Hi, I'm Victor</h1>
@@ -144,6 +146,7 @@ function App() {
               <a className='bg-indigo-600 text-white text-xl px-3 py-2 font-semibold w-fit rounded-sm' href="#contact">Hire Me</a>
             </div>
           </div>
+
           {/* About */}
           <div id='about' className='px-10 dark:bg-slate-900 dark:text-white'>
             <div className="container mx-auto py-40 flex-col-reverse lg:flex-row items-center flex gap-20">
@@ -154,6 +157,7 @@ function App() {
                     <img src="../public/victorRetrato.png" alt="" />
                   </div>
               </div>
+
               {/* Right */}
               <div className='my-auto flex flex-col gap-3'>
                 <h1 className='text-orange-700 font-bold '>About Me</h1>
@@ -243,10 +247,11 @@ function App() {
           </div>
 
               {/* Works! */}
-              <div id='works' className='py-40 dark:bg-slate-900 dark:text-white'>
-            <div className='container mx-auto '>
+                <div id='works' className='py-40 dark:bg-slate-900 dark:text-white'>
+                <div className='container mx-auto '>
+
               {/* top */}
-              <div className='flex flex-col gap-3 items-center'>
+                <div className='flex flex-col gap-3 items-center'>
 
               <h1 className=' text-3xl text-orange-600 font-semibold dark:text-white'>Portafolio</h1>
               <h1 className='text-3xl dark:text-white'>Works and Projects.</h1>
@@ -285,8 +290,8 @@ function App() {
 
         {/* bottom */}
         <form className='mt-5 p-8 flex flex-col gap-5 items-center'>
-          <input className='p-2 w-2/3 ring-1 ring-indigo-300 rounded-sm' type="text" placeholder='Name Surname'/>
-          <input className='p-2 w-2/3 ring-1 ring-indigo-300 rounded-sm' type="email" placeholder='Email'/>
+          <input className='p-2 w-2/3 ring-1 ring-indigo-300 rounded-sm' type="text" placeholder='Name...'/>
+          <input className='p-2 w-2/3 ring-1 ring-indigo-300 rounded-sm' type="email" placeholder='Email...'/>
           <textarea className='p-2 w-2/3 ring-1 ring-indigo-300 rounded-sm' cols="30" rows="10" placeholder='Message...'></textarea>
           <button className='w-1/4 bg-orange-600 text-white font-medium px-3 py-2 rounded-md cursor-pointer hover:bg-orange-500'>Enviar</button>
         </form>
@@ -294,12 +299,11 @@ function App() {
     </div>
 
     {/* Footer */}
-
     <div className="w-full bg-indigo-500">
       <div className="container mx-auto py-5 flex items-center justify-around">
-        <div className="flex items-center gap-2">
+        <div className="flex gap-2">
           <img className="w-8" src="../public/logoVictor.png" alt="" />
-          <span className="text-2xl font-medium text-white"></span>
+          <span className="text-2xl text-white"></span>
         </div>
         <span className="hidden md:block font-medium text-white">
           © 2024 Design By Victor Cortes.
