@@ -81,7 +81,7 @@ function App() {
                   <div className='flex items-center gap-3'>
                   <img
                     className="w-12"
-                    src="../public/logoVictor.png"
+                    src="/logoVictor.png"
                     alt="Logo Victor"
                   />
                   <span className="text-xl font-medium text-orange-500 dark:text-white"></span>
