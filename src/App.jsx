@@ -335,7 +335,7 @@ function App() {
             <div className="container mx-auto ">
               {/* top */}
               <div className="flex flex-col gap-3 items-center">
-                <h1 className=" text-3xl text-orange-600 font-semibold dark:text-zinc-100">
+                <h1 className=" text-3xl text-orange-600 font-semibold dark:text-orange-600">
                   Portafolio
                 </h1>
                 <h1 className="text-2xl dark:text-zinc-100">
