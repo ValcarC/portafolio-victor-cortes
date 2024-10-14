@@ -148,7 +148,7 @@ function App() {
                   >
                     {darkMode ? "Light Mode" : "Dark Mode"}
                     <img
-                      src="../public/moonVictor.png"
+                      src="/moonVictor.png"
                       className="hidden md:block w-8 cursor-pointer"
                       alt="Icono de luna"
                     />
@@ -160,7 +160,7 @@ function App() {
             {/* Intro Content */}
             {/* image */}
             <img
-              src="../public/portrait.png"
+              src="/portrait.png"
               alt=""
               className="absolute bottom-0 right-0 mr-9 lg:left-0 mx-auto h-5/6 p-9 object-cover rounded-full"
             />
@@ -191,15 +191,10 @@ function App() {
             <div className="container mx-auto py-32 flex-col-reverse lg:flex-row items-center flex gap-20">
               {/* Left */}
               <div className="relative">
-                <img
-                  className="h-1/4 absolute top-0 left-0 -z-10"
-                  src="../public/dots.png"
-                  alt=""
-                />
                 <div className="overflow-hidden rounded-full w-56 h-56">
                   <img
                     className="w-full h-full object-cover"
-                    src="../public/victorRetrato.png"
+                    src="/victorRetrato.png"
                     alt="Retrato de Victor"
                   />
                 </div>
@@ -239,7 +234,7 @@ function App() {
               <div className="p-5 sm:p-0 flex flex-wrap justify-between">
                 {/* card */}
                 <div className="w-full md:w-4/12 shadow-xl rounded-md p-5 my-3 md:my-10 flex flex-col gap-3">
-                  <img src="../public/logoVictor.png" alt="" className="w-10" />
+                  <img src="/logoVictor.png" alt="" className="w-10" />
                   <h1 className="font-medium text-lg dark:text-white">
                     UX/UI Design
                   </h1>
@@ -250,7 +245,7 @@ function App() {
 
                 {/* card */}
                 <div className="w-full md:w-4/12 shadow-xl rounded-md p-5 my-3 md:my-10 flex flex-col gap-3">
-                  <img src="../public/logoVictor.png" alt="" className="w-10" />
+                  <img src="/logoVictor.png" alt="" className="w-10" />
                   <h1 className="font-medium text-lg">Multimedia</h1>
                   <p className="text-gray-700 dark:text-white">
                     Creación de experiencias multimedia.
@@ -259,7 +254,7 @@ function App() {
 
                 {/* card */}
                 <div className="w-full md:w-4/12 shadow-xl rounded-md p-5 my-3 md:my-10 flex flex-col gap-3">
-                  <img src="../public/logoVictor.png" alt="" className="w-10" />
+                  <img src="/logoVictor.png" alt="" className="w-10" />
                   <h1 className="font-medium text-lg">Frontend</h1>
                   <p className="text-gray-700 dark:text-white">
                     Diseño Frontend.
@@ -268,14 +263,14 @@ function App() {
 
                 {/* card */}
                 <div className="w-full md:w-4/12 shadow-xl rounded-md p-5 my-3 md:my-10 flex flex-col gap-3">
-                  <img src="../public/logoVictor.png" alt="" className="w-10" />
+                  <img src="/logoVictor.png" alt="" className="w-10" />
                   <h1 className="font-medium text-lg">Backend</h1>
                   <p className="text-gray-700 dark:text-white">Backend.</p>
                 </div>
 
                 {/* card */}
                 <div className="w-full md:w-4/12 shadow-xl rounded-md p-5 my-3 md:my-10 flex flex-col gap-3">
-                  <img src="../public/logoVictor.png" alt="" className="w-10" />
+                  <img src="/logoVictor.png" alt="" className="w-10" />
                   <h1 className="font-medium text-lg">Actualización</h1>
                   <p className="text-gray-700 dark:text-white">
                     Actualización de paginas.
@@ -284,7 +279,7 @@ function App() {
 
                 {/* card */}
                 <div className="w-full md:w-4/12 shadow-xl rounded-md p-5 my-3 md:my-10 flex flex-col gap-3">
-                  <img src="../public/logoVictor.png" alt="" className="w-10" />
+                  <img src="/logoVictor.png" alt="" className="w-10" />
                   <h1 className="font-medium text-lg">Mantenimiento</h1>
                   <p className="text-gray-700 dark:text-white">
                     Mantenimiento.
@@ -321,7 +316,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="../public/paginaWeb.png" alt="" />
+                    <img src="/paginaWeb.png" alt="" />
                   </a>
                 </div>
 
@@ -332,7 +327,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="../public/apiMovie.png" alt="" />
+                    <img src="/apiMovie.png" alt="" />
                   </a>
                 </div>
               </div>
@@ -368,7 +363,7 @@ function App() {
           <div className="w-full bg-indigo-500 p-6">
             <div className="container mx-auto py-5 flex items-center justify-around">
               <div className="flex gap-2">
-                <img className="w-12" src="../public/logoVictor.png" alt="" />
+                <img className="w-12" src="/logoVictor.png" alt="" />
                 <span className="text-2xl text-white"></span>
               </div>
               <span className="hidden md:block font-medium text-white">
@@ -382,7 +377,7 @@ function App() {
                 >
                   <img
                     className="w-5 cursor-pointer"
-                    src="../public/linkedin.png"
+                    src="/linkedin.png"
                     alt="LinkedIn Profile"
                   />
                 </a>
