@@ -87,7 +87,7 @@ function App() {
         <div id="home" className="h-screen">
           <div className="h-1/2 lg:h-screen bg-gradient-to-t from-orange-200 to-orange-600 dark:from-slate-900 dark:to-slate-900 relative overflow-hidden">
             {/* navbar */}
-            <nav className="w-full fixed top-0 bg-zinc-100 z-10 dark:bg-orange-700">
+            <nav className="w-full fixed top-0 bg-zinc-200 z-10 opacity-95 backdrop-blur dark:bg-orange-700">
               <div className="container mx-auto p-5 flex items-center justify-between">
                 <div className="flex items-center gap-3">
                   <img
@@ -97,20 +97,20 @@ function App() {
                   />
                   <span className="text-xl font-medium text-orange-500 dark:text-zinc-100"></span>
                 </div>
-                <ul className="hidden md:flex space-x-10 text-gray-700 dark:text-gray-100 font-bold text-sm uppercase">
-                  <li className="hover:text-gray-500">
+                <ul className="hidden md:flex space-x-10 text-gray-700 dark:text-gray-100 font-bold text-sm uppercase ">
+                  <li className="hover:text-indigo-600 dark:hover:text-gray-700">
                     <a href="#">Home</a>
                   </li>
-                  <li className="hover:text-gray-500">
+                  <li className="hover:text-indigo-600 dark:hover:text-gray-700">
                     <a href="#about">Sobre Mi</a>
                   </li>
-                  <li className="hover:text-gray-500">
+                  <li className="hover:text-indigo-600 dark:hover:text-gray-700">
                     <a href="#services">Servicios</a>
                   </li>
-                  <li className="hover:text-gray-500">
+                  <li className="hover:text-indigo-600 dark:hover:text-gray-700">
                     <a href="#works">Trabajos y Projectos</a>
                   </li>
-                  <li className="hover:text-gray-500">
+                  <li className="hover:text-indigo-600 dark:hover:text-gray-700">
                     <a href="#contact">Contacto</a>
                   </li>
                 </ul>
@@ -137,13 +137,13 @@ function App() {
                 </div>
                 <ul
                   id="menu"
-                  className={`menu bg-orange-500 fixed left-0 top-0 w-full h-screen p-10 rounded-b-none space-y-10 text-xl font-semibold text-zinc-100 text-center transition-all duration-500 ease-out ${
+                  className={`menu bg-orange-500 fixed left-0 top-0 w-full h-screen p-10 rounded-b-none space-y-10 text-xl font-semibold text-zinc-100 text-center opacity-100 transition-all duration-500 ease-out ${
                     isMenuOpen ? "open" : ""
                   } md:hidden`}
                 >
                   <ul
                     id="menu"
-                    className={`menu bg-orange-600 fixed left-0 top-0 w-full h-screen p-10 rounded-b-none space-y-10 text-xl font-semibold text-zinc-100 text-center transition-all duration-500 ease-out ${
+                    className={`menu bg-orange-600 fixed left-0 top-0 w-full h-screen p-10 rounded-b-none space-y-10 text-xl font-semibold text-zinc-100 text-center opacity-100 transition-all duration-500 ease-out ${
                       isMenuOpen ? "open" : ""
                     } md:hidden`}
                   ></ul>
@@ -208,7 +208,7 @@ function App() {
             </div>
 
             {/* texts */}
-            <div className="hidden lg:flex flex-col gap-2 absolute top-15 shadow-xl bottom-0 m-auto left-9 bg-zinc-100dark:bg-slate-300 p-6 h-fit w-1/3 rounded-sm">
+            <div className="hidden lg:flex flex-col gap-2 absolute top-15 shadow-xl bottom-0 m-auto left-9 bg-zinc-100 dark:bg-slate-100 p-6 h-fit w-1/3 rounded-sm">
               <h1 className="text-3xl font-bold text-indigo-600">
                 Hola, Soy Victor
               </h1>
@@ -224,7 +224,7 @@ function App() {
           </div>
 
           {/* About */}
-          <div id="about" className="px-10 dark:bg-slate-900 dark:text-white">
+          <div id="about" className="px-10 bg-zinc-100 dark:bg-slate-900 dark:text-zinc-100">
             <div className="container mx-auto py-32 flex-col-reverse lg:flex-row items-center flex gap-20">
               {/* Left */}
               <div className="relative">
@@ -239,7 +239,7 @@ function App() {
 
               {/* Right */}
               <div className="my-auto flex flex-col gap-3">
-                <h1 className="text-3xl text-orange-700 font-bold">Sobre Mi</h1>
+                <h1 className="text-3xl text-orange-600 font-bold">Sobre Mi</h1>
                 <p className="text-gray-00 dark:text-zinc-100">
                   Experiencia en la producción de UX y UI para el diseño de
                   páginas web e interacciones multimedia. Tengo amplio
@@ -258,12 +258,12 @@ function App() {
             </div>
           </div>
           {/* Services */}
-          <div id="services" className="dark:bg-slate-900 dark:text-zinc-100">
+          <div id="services" className="py-32 dark:bg-slate-900 dark:text-zinc-100">
             <div className="container mx-auto ">
               {/* top */}
               <div className="flex flex-col gap-3 items-center">
-                <h1 className="text-orange-600 font-semibold">Servicios</h1>
-                <h1 className="text-3xl dark:text-zinc-100">Que ofresco?</h1>
+                <h1 className="text-3xl text-orange-600 font-semibold">Servicios</h1>
+                <h1 className="text-2xl dark:text-zinc-100">Que ofresco?</h1>
                 <p className="w-1/2 text-center text-gray-800 dark:text-zinc-100">
                   Maquetacion y Diseño de Paginas Web.
                 </p>
@@ -295,7 +295,7 @@ function App() {
                   <img src="/logoVictor.png" alt="" className="w-10" />
                   <h1 className="font-medium text-lg">Frontend</h1>
                   <p className="text-gray-700 dark:text-zinc-100">
-                    Diseño Frontend.
+                    Diseño de página web.
                   </p>
                 </div>
 
@@ -303,7 +303,7 @@ function App() {
                 <div className="w-full md:w-4/12 shadow-xl rounded-md p-5 my-3 md:my-10 flex flex-col gap-3">
                   <img src="/logoVictor.png" alt="" className="w-10" />
                   <h1 className="font-medium text-lg">Backend</h1>
-                  <p className="text-gray-700 dark:text-zinc-100">Backend.</p>
+                  <p className="text-gray-700 dark:text-zinc-100">Creación de base de datos.</p>
                 </div>
 
                 {/* card */}
@@ -330,7 +330,7 @@ function App() {
           {/* Works! */}
           <div
             id="works"
-            className="py-16 dark:bg-slate-900 dark:text-zinc-100"
+            className="py-32 bg-zinc-100 dark:bg-slate-900 dark:text-zinc-100"
           >
             <div className="container mx-auto ">
               {/* top */}
@@ -338,7 +338,7 @@ function App() {
                 <h1 className=" text-3xl text-orange-600 font-semibold dark:text-zinc-100">
                   Portafolio
                 </h1>
-                <h1 className="text-3xl dark:text-zinc-100">
+                <h1 className="text-2xl dark:text-zinc-100">
                   Trabajos y Projectos.
                 </h1>
                 <p className="w-1/2 text-center text-gray-800 dark:text-zinc-100">
@@ -378,13 +378,13 @@ function App() {
           {/* Contact */}
           <div
             id="contact"
-            className="dark:bg-slate-900 dark:text-zinc-100 p-6"
+            className="py-32 bg-zinc-100 dark:bg-slate-900 dark:text-zinc-100"
           >
             <div className="container mx-auto">
               {/* top */}
               <div className="flex flex-col gap-3 items-center">
-                <h1 className="text-orange-600 font-semibold">Contacto</h1>
-                <h1 className="text-3xl">¿Tienes alguna Pregunta?</h1>
+                <h1 className="text-orange-600 text-3xl font-semibold">Contacto</h1>
+                <h1 className="text-2xl">¿Tienes alguna Pregunta?</h1>
                 <p className="w-1/2 text-center text-gray-800 dark:text-zinc-100">
                   ¿Tienes alguna idea?, vamos a discutirlo y crear algo juntos.
                 </p>
@@ -420,7 +420,7 @@ function App() {
                   rel="noopener noreferrer"
                 >
                   <img
-                    className="w-9 cursor-pointer"
+                    className="w-9 cursor-pointer hover:scale-125"
                     src="/linkedin.png"
                     alt="LinkedIn Profile"
                   />
