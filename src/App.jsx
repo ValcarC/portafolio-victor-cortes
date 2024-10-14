@@ -421,7 +421,7 @@ function App() {
                 >
                   <img
                     className="w-9 cursor-pointer"
-                    src="../public/linkedin.png"
+                    src="/linkedin.png"
                     alt="LinkedIn Profile"
                   />
                 </a>
