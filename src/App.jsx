@@ -358,7 +358,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="../public/ecommerce.png" alt="" />
+                    <img src="/ecommerce.png" alt="" />
                   </a>
                 </div>
 
@@ -369,7 +369,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="../public/paginaWeb.png" alt="" />
+                    <img src="/paginaWeb.png" alt="" />
                   </a>
                 </div>
 
@@ -380,7 +380,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="../public/login.png" alt="" />
+                    <img src="/login.png" alt="" />
                   </a>
                 </div>
 
@@ -391,7 +391,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="../public/apiMovie.png" alt="" />
+                    <img src="/apiMovie.png" alt="" />
                   </a>
                 </div>
               </div>
