@@ -350,25 +350,48 @@ function App() {
               </div>
               {/* bottom */}
               <div className="p-5 sm:p-0 flex flex-wrap justify-around">
+
                 {/* card */}
-                <div className="w-full md:w-4/12 lg:w-1/3 shadow-xl rounded-md p-5 my-3 md:my-10 flex m-1">
+                <div className="w-full md:w-4/12 lg:w-1/3 shadow-xl rounded-md p-5 my-3 md:my-10 flex m-1 hover:scale-110 transition-all duration-500">
+                  <a
+                    href="https://e-commerce-frontend-three-azure.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src="../public/ecommerce.png" alt="" />
+                  </a>
+                </div>
+
+                {/* card */}
+                <div className="w-full md:w-4/12 lg:w-1/3 shadow-xl rounded-md p-5 my-3 md:my-10 flex m-1 hover:scale-110 transition-all duration-500">
                   <a
                     href="https://mern-hojita-2wkn.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="/paginaWeb.png" alt="" />
+                    <img src="../public/paginaWeb.png" alt="" />
                   </a>
                 </div>
 
                 {/* card */}
-                <div className="w-full md:w-4/12 lg:w-1/3 shadow-xl rounded-md p-5 my-3 md:my-10 flex m-1">
+                <div className="w-full md:w-4/12 lg:w-1/3 shadow-xl rounded-md p-5 my-3 md:my-10 flex m-1 hover:scale-110 transition-all duration-500">
+                  <a
+                    href="https://form-advance-auth.onrender.com/login/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src="../public/login.png" alt="" />
+                  </a>
+                </div>
+
+                {/* card */}
+                <div className="w-full md:w-4/12 lg:w-1/3 shadow-xl rounded-md p-5 my-3 md:my-10 flex m-1 hover:scale-110 transition-all duration-500">
                   <a
                     href="https://api-movie-zeta.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="/apiMovie.png" alt="" />
+                    <img src="../public/apiMovie.png" alt="" />
                   </a>
                 </div>
               </div>
