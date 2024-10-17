@@ -365,7 +365,7 @@ function App() {
                 {/* card */}
                 <div className="w-full md:w-4/12 lg:w-1/3 shadow-xl rounded-md p-5 my-3 md:my-10 flex m-1 hover:scale-110 transition-all duration-500">
                   <a
-                    href="https://mern-hojita-2wkn.vercel.app/"
+                    href="https://hojitashop.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
